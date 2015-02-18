@@ -2,61 +2,25 @@
 		<ul>
 			<li psui-accordion-element title="{{'menu.person.title' | translate}}" icon-class="glyphicon-user">
 				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/person'|uriescape}}"><span>{{'menu.new.person.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/person'|uriescape}}"><span>{{'menu.search.person.lower.level' | translate}}</span></a></li>
-					<!--
-					<li><a href="#/search/{{'uri://registries/player'|uriescape}}"><span>{{'menu.search.player.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/referee'|uriescape}}"><span>{{'menu.search.referee.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/coach'|uriescape}}"><span>{{'menu.search.coach.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/statistic'|uriescape}}"><span>{{'menu.search.statistic.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/medic'|uriescape}}"><span>{{'menu.search.medic.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/officer'|uriescape}}"><span>{{'menu.search.officer.lower.level' | translate}}</span></a></li>
-					-->
+					<li><a href="#/registry/new/{{'uri://registries/people#views/fullperson'|uriescape}}"><span>{{'menu.new.person.lower.level' | translate}}</span></a></li>
+					<li><a href="#/search/{{'uri://registries/people#views/fullperson'|uriescape}}"><span>{{'menu.search.person.lower.level' | translate}}</span></a></li>
 				</ul>
 			</li>
-			<!--
-			<li psui-accordion-element title="{{'menu.stadium.title' | translate}}" icon-class="glyphicon-flag">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/stadium'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/stadium'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			-->
-			<!--
-			<li psui-accordion-element title="{{'menu.club.title' | translate}}" icon-class="glyphicon-home">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/club'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/club'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.association.title' | translate}}" icon-class="glyphicon-briefcase">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/association'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/association'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.company.title' | translate}}" icon-class="glyphicon-briefcase">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/company'|uriescape}}"><span>{{'menu.new.lower.level.she' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/company'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			-->
 			<li psui-accordion-element title="{{'menu.memberFees.title' | translate}}" icon-class="glyphicon-credit-card">
 				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/fees#'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/fees#'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-					<li><a href="#/registry/new/{{'uri://registries/payments'|uriescape}}"><span>{{'menu.payments.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/payments'|uriescape}}"><span>{{'menu.payments.lower.level' | translate}}</span></a></li>
+					<li><a href="#/registry/new/{{'uri://registries/fees#views/fee'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
+					<li><a href="#/search/{{'uri://registries/fees#views/fee'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
+					<li><a href="#/registry/new/{{'uri://registries/payments#views/payment'|uriescape}}"><span>{{'menu.payments.new.lower.level' | translate}}</span></a></li>
+					<li><a href="#/search/{{'uri://registries/payments#views/payment'|uriescape}}"><span>{{'menu.payments.lower.level' | translate}}</span></a></li>
 
-					<li><a href="#/registry/new/{{'uri://registries/imports'|uriescape}}"><span>{{'menu.imports.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/imports'|uriescape}}"><span>{{'menu.imports.lower.level' | translate}}</span></a></li>
+					<li><a href="#/registry/new/{{'uri://registries/imports#views/import'|uriescape}}"><span>{{'menu.imports.new.lower.level' | translate}}</span></a></li>
+					<li><a href="#/search/{{'uri://registries/imports#views/import'|uriescape}}"><span>{{'menu.imports.lower.level' | translate}}</span></a></li>
 				</ul>
 			</li>
 			<li psui-accordion-element title="{{'menu.event.title' | translate}}" icon-class="glyphicon-pushpin">
 				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/events'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/events'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
+					<li><a href="#/registry/new/{{'uri://registries/events#views/event'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
+					<li><a href="#/search/{{'uri://registries/events#views/event'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
 				</ul>
 			</li>
 			<li psui-accordion-element title="{{'menu.massmailing.title' | translate}}" icon-class="glyphicon glyphicon-send">
@@ -66,63 +30,6 @@
 					<li><a href="#/massmailing"><span>{{'menu.massmailing.send.title' | translate}}</span></a></li>
 				</ul>
 			</li>
-			<!--
-			<li psui-accordion-element title="{{'menu.transfer.title' | translate}}" icon-class="glyphicon-forward">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/transfer'|uriescape}}"><span>{{'menu.new.lower.level.she' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/transfer'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.roster.title' | translate}}" icon-class="glyphicon-list-alt">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/roster'|uriescape}}"><span>{{'menu.new.lower.level.she' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/roster'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-
-			<li psui-accordion-element title="{{'menu.age.category.title' | translate}}" icon-class="glyphicon-tag">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/ageCategory'|uriescape}}"><span>{{'menu.new.lower.level.she' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/ageCategory'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.season.title' | translate}}" icon-class="glyphicon-calendar">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/season'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/season'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.competition.title' | translate}}" icon-class="glyphicon-star">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/competition'|uriescape}}"><span>{{'menu.new.lower.level.she' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/competition'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.competitionPart.title' | translate}}" icon-class="glyphicon-star">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/competitionPart'|uriescape}}"><span>{{'menu.new.lower.level.she' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/competitionPart'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.schedule.title' | translate}}" icon-class="glyphicon-star">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/schedule'|uriescape}}"><span>{{'menu.new.lower.level' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/schedule'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.match.title' | translate}}" icon-class="glyphicon-star">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/match'|uriescape}}"><span>{{'menu.new.lower.level.he' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/match'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			<li psui-accordion-element title="{{'menu.delegateReport.title' | translate}}" icon-class="glyphicon-star">
-				<ul>
-					<li><a href="#/registry/new/{{'uri://registries/delegateReport'|uriescape}}"><span>{{'menu.new.lower.level.he' | translate}}</span></a></li>
-					<li><a href="#/search/{{'uri://registries/delegateReport'|uriescape}}"><span>{{'menu.search.lower.level' | translate}}</span></a></li>
-				</ul>
-			</li>
-			-->
 			<li psui-accordion-element title="{{'menu.my.profile.title' | translate}}" icon-class="glyphicon-user">
 				<ul>
 					<li><a href="#/personal-page"><span>{{'menu.profile.lower.level' | translate}}</span></a></li>
